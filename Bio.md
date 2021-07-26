@@ -5,5 +5,5 @@ Profile: https://www.roblox.com/users/132423189/profile
 Reddit: https://www.reddit.com/user/Yr4653
 Twitch: https://www.twitch.tv/yr4653
 Twitter: https://twitter.com/Yr4653_01
-Instagram https://www.instagram.com/yr4653_offi...
+Instagram https://www.instagram.com/yr4653_official
 Discord Channel: https://discord.gg/RarwsZPTFY
