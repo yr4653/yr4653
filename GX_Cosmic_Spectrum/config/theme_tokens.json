@@ -1,0 +1,23 @@
+{
+  "name": "Cosmic Spectrum",
+  "palette": {
+    "primary": "#ad5cff",
+    "primaryDark": "#2a0646",
+    "primaryLight": "#f1e5ff",
+    "background": "#080016",
+    "backgroundAlt": "#15002b",
+    "surface": "#1c053d",
+    "surfaceAlt": "#2a0b56",
+    "divider": "#3f1674",
+    "textPrimary": "#f6efff",
+    "textSecondary": "#d6c8ff",
+    "success": "#50ffa8",
+    "warning": "#ffd166",
+    "danger": "#ff7090"
+  },
+  "layout": {
+    "cornerRounding": 18,
+    "glowStrength": 0.65,
+    "glassOpacity": 0.45
+  }
+}
