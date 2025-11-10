@@ -1,36 +1,35 @@
-# Cosmic Spectrum Opera GX Mod
+# Cosmic Spectrum Opera GX Modu
 
-Cosmic Spectrum is a fully customized Opera GX theme that wraps the browser in luminous purple nebulae. The mod ships with procedurally generated art assets and a curated color palette that matches the "Cosmic Spectrum" identity.
+Cosmic Spectrum, tarayıcıyı parlak mor bulutsularla saran, tamamen özelleştirilmiş bir Opera GX temasıdır. Mod, prosedürel olarak oluşturulmuş görsel öğeler ve "Cosmic Spectrum" kimliğine uygun, özenle seçilmiş bir renk paletiyle birlikte gelir.
 
-## Features
+## Özellikler
 
-- **Dynamic cosmic wallpapers** – static 4K image plus a looping animated GIF inspired by interstellar swirls.
-- **Hand-tuned color palette** – accent, sidebar, GX Corner, and highlight colors harmonize around rich violets and pastel highlights.
-- **Square logo** – ready for Opera GX mod listings and the GX Corner card.
-- **Immersive audio profile** – procedurally generated background music and paired sound effects that carry the ethereal purple vibe.
-- **Extensible config** – tweak colors quickly by editing `config/theme_tokens.json` and re-exporting the mod package.
+- **Dinamik kozmik duvar kağıtları** – statik 4K görüntü ve yıldızlar arası girdaplardan esinlenen, döngüsel animasyonlu bir GIF.
+- **Elle ayarlanmış renk paleti** – vurgu, kenar çubuğu, GX Köşesi ve vurgu renkleri, zengin menekşeler ve pastel vurgularla uyum içindedir.
+- **Kare logo** – Opera GX mod listeleri ve GX Köşesi kartı için hazır.
+- **Sürükleyici ses profili** – prosedürel olarak oluşturulmuş arka plan müziği ve o uhrevi mor havayı taşıyan eşleştirilmiş ses efektleri. - **Genişletilebilir yapılandırma** – `config/theme_tokens.json` dosyasını düzenleyip mod paketini yeniden dışa aktararak renkleri hızlıca ayarlayın.
 
-## Getting started
+## Başlarken
 
-1. Ensure Python 3.11+ is available.
-2. Install dependencies once: `pip install pillow numpy`.
-3. Rebuild art assets (required on a fresh checkout because generated files are not tracked):
-   ```bash
-   python scripts/generate_assets.py
-   ```
-4. Package the mod into a `.zip` archive:
-   ```bash
-   python scripts/package_mod.py
-   ```
-   The packaging script first regenerates the artwork and audio, then creates `dist/GX_Cosmic_Spectrum.zip`. Import it in Opera GX via **GX Control → Mods → Developer → Load unpacked**.
+1. Python 3.11+ sürümünün mevcut olduğundan emin olun.
+2. Bağımlılıkları bir kez yükleyin: `pip install pillow numpy`.
+3. Sanat varlıklarını yeniden oluşturun (oluşturulan dosyalar takip edilmediği için yeni bir ödemede gereklidir):
+```bash
+python scripts/generate_assets.py
+```
+4. Modu bir `.zip` arşivine paketleyin:
+```bash
+python scripts/package_mod.py
+```
+Paketleme betiği önce görseli ve sesi yeniden oluşturur, ardından `dist/GX_Cosmic_Spectrum.zip` dosyasını oluşturur. **GX Control → Mods → Developer → Load unpacked** yoluyla Opera GX'e içe aktarın.
 
-## Customization tips
+## Özelleştirme ipuçları
 
-- Update colors in `manifest.json` and `config/theme_tokens.json` to fine-tune component tints.
-- Replace or edit the generated assets inside `GX_Cosmic_Spectrum/assets/` after running the generator to inject your own artwork.
-- Opera GX accepts animated wallpapers as `.gif`, `.webm`, or `.mp4`. The included GIF keeps the project dependency-free, but you can drop in a higher quality video clip and update the manifest path.
-- Tweak audio by replacing the files in `GX_Cosmic_Spectrum/assets/audio/`. Regenerate them with `scripts/generate_assets.py` for fresh procedural pads, or swap in your own `.wav`/`.ogg` tracks and update the manifest volume levels to taste.
+- Bileşen renk tonlarını ince ayarlamak için `manifest.json` ve `config/theme_tokens.json` dosyalarındaki renkleri güncelleyin.
+- Oluşturucuyu çalıştırdıktan sonra kendi görsellerinizi eklemek için `GX_Cosmic_Spectrum/assets/` dosyasında oluşturulan varlıkları değiştirin veya düzenleyin.
+- Opera GX, animasyonlu duvar kağıtlarını `.gif`, `.webm` veya `.mp4` olarak kabul eder. Dahil edilen GIF, projeyi bağımlılıktan uzak tutar, ancak daha yüksek kaliteli bir video klip ekleyebilir ve bildirim yolunu güncelleyebilirsiniz.
+- `GX_Cosmic_Spectrum/assets/audio/` dosyasındaki dosyaları değiştirerek sesi ayarlayın. Yeni prosedürel pad'ler için `scripts/generate_assets.py` dosyasıyla bunları yeniden oluşturun veya kendi `.wav`/`.ogg` parçalarınızı ekleyerek bildirim ses seviyelerini istediğiniz gibi güncelleyin.
 
-## Attribution
+## Atıf
 
-All visuals were generated procedurally by `scripts/generate_assets.py`. Feel free to iterate on the script to align with your personal branding.
+Tüm görseller `scripts/generate_assets.py` dosyası tarafından prosedürel olarak oluşturulmuştur. Kişisel markanızla uyumlu hale getirmek için komut dosyası üzerinde değişiklik yapmaktan çekinmeyin.
