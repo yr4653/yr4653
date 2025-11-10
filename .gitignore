@@ -1,0 +1,21 @@
+dist/
+__pycache__/
+*.pyc
+/*.zip
+/*.tar
+/*.tar.gz
+/*.tgz
+/*.bz2
+/*.xz
+/*.7z
+/GX_Cosmic_Spectrum.zip
+# Procedurally generated mod assets
+GX_Cosmic_Spectrum/assets/*.jpg
+GX_Cosmic_Spectrum/assets/*.png
+GX_Cosmic_Spectrum/assets/*.gif
+GX_Cosmic_Spectrum/assets/audio/*.wav
+.DS_Store
+
+# Virtual environment directories
+.venv/
+venv/

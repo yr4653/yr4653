@@ -1,0 +1,75 @@
+{
+  "manifest_version": 1,
+  "name": "Cosmic Spectrum",
+  "version": "1.0.0",
+  "type": "opera-gx",
+  "description": "A fully personalized Opera GX theme inspired by luminous nebulae, with purple energy accents and smooth cosmic gradients.",
+  "author": {
+    "name": "Cosmic Spectrum Studio",
+    "url": "https://example.com/cosmic-spectrum"
+  },
+  "preview": {
+    "square_logo": "assets/logo.png",
+    "images": [
+      {
+        "path": "assets/wallpaper_preview.jpg",
+        "label": "Cosmic Spectrum preview"
+      }
+    ]
+  },
+  "theme": {
+    "accent": "#b05cff",
+    "background": "#050016",
+    "foreground": "#efe9ff",
+    "secondary_background": "#120235",
+    "highlight": "#ffe8ff",
+    "light_text": "#f6f2ff",
+    "dark_text": "#1a032e",
+    "border": "#361066",
+    "gx_corner": "#ff79ff",
+    "sidebar": "#0b0121",
+    "sidebar_text": "#e6ddff",
+    "sidebar_selected": "#4b1585"
+  },
+  "wallpapers": [
+    {
+      "name": "Cosmic Spectrum Static",
+      "type": "static",
+      "path": "assets/wallpaper_4k.jpg",
+      "preview": "assets/wallpaper_preview.jpg",
+      "attribution": "Artwork generated procedurally by the mod build script."
+    },
+    {
+      "name": "Cosmic Spectrum Animated",
+      "type": "animated",
+      "path": "assets/wallpaper_animated.gif",
+      "preview": "assets/wallpaper_preview.jpg",
+      "attribution": "Artwork generated procedurally by the mod build script."
+    }
+  ],
+  "audio": {
+    "background_music": {
+      "path": "assets/audio/background_music.wav",
+      "label": "Cosmic Spectrum ambient pad",
+      "volume": 0.45
+    },
+    "sound_effects": [
+      {
+        "id": "focus",
+        "path": "assets/audio/sfx_focus.wav",
+        "label": "Focus transition chime",
+        "volume": 0.6
+      },
+      {
+        "id": "notification",
+        "path": "assets/audio/sfx_notification.wav",
+        "label": "Notification shimmer",
+        "volume": 0.65
+      }
+    ]
+  },
+  "metadata": {
+    "tags": ["space", "purple", "galaxy", "custom"],
+    "languages": ["en"]
+  }
+}
